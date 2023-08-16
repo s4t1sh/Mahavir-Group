@@ -1,0 +1,19 @@
+.contact_icons_title{
+    color: #314A59;
+    font-family: EB Garamond;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.contact_icon_desc{
+    color: #9F9F9F;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+}

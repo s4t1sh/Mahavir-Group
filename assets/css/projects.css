@@ -1,0 +1,203 @@
+a{
+    color: white;
+}
+
+.bottom-project{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    }
+
+.frame1-title{
+    color: #FFF;
+    font-family: EB Garamond;
+    font-size: 41px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+
+.bg-img-durg{
+    background-size: cover;
+    min-height: 590px;
+  }
+
+.project-nav a:active{
+    color: #C9C281;
+}
+
+.project-nav a:hover{
+    color: #C9C281;
+}
+
+.bg-img-overview{
+    background-image: url("../../assets/media/projects_overview/durg_frame2.webp");
+    min-height: 70vh;
+    background-size: cover;
+}
+
+.overview-title{
+    color: var(--text-title, #314a59);
+    font-family: EB Garamond;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.pipe{
+    display: inline-block;
+    height: 2px;
+    width: 35%;
+    margin: 0.5rem auto;
+    background-color: black;
+}
+
+.weight{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.overview-desc{
+    color: #9F9F9F;
+    font-family: Open Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.video-title{
+    color: var(--text-title, #333);
+    font-family: EB Garamond;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.watch-video-font{
+    border: 2px solid #C9C281;
+    color: #C9C281;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+.video-bg{
+    background-image: url('../../assets/media/projects_overview/video_thumbnail.webp');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+    /* object-fit: cover; */
+}
+
+.new-at-glance{
+    color: #BBB;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.bg-glance{
+    background-image: url('../../assets/media/projects_overview/Rectangle\ 12.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 70vh;
+}
+
+.date{
+    color: #314A59;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.card-title{
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    }
+
+.card-pipe{
+    width: 100%;
+    height: 2px;
+    background: #FFF;
+}
+
+.card-desc{
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.bg-grad{
+    background-image: linear-gradient(to right, rgba(48, 46, 46, 0) -46%, #020202,rgba(48, 46, 46, 0) 144%);
+}
+
+.desc_frame6_update{
+    color: #A5A5A5;
+    font-family: EB Garamond;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.sub_frame6_update{
+    color: #9F9F9F;
+    font-family: Open Sans;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+@media (max-width: 770px){
+    .frame1-title{
+        color: #FFF;
+        font-family: EB Garamond;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 550;
+        line-height: normal;
+    }
+    .overview-title{
+        color: var(--text-title, #314a59);
+        font-family: EB Garamond;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .pipe{
+        display: inline-block;
+        height: 2px;
+        width: 85%;
+        margin: 0.5rem auto;
+        background-color: black;
+    }
+}

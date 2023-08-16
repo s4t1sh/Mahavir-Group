@@ -1,0 +1,14 @@
+/* Button */
+.btn-primary {
+    background-color: var(--primary-color);
+    color:var(--main-white);
+    border-color: var(--primary-color);
+    padding: 0.5rem 1rem;
+}
+
+.btn-primary:hover {
+    background-color: var(--main-white);
+    color:var(--primary-color);
+    border-color: var(--primary-color);
+}
+/* Button */
