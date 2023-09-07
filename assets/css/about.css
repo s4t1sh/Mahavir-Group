@@ -1,0 +1,22 @@
+.about-title{
+    font-size: 34px;
+    line-height: 40px;
+    letter-spacing: 5px !important;
+    font-weight: 400 !important;
+    color: #173f50;
+}
+
+.about-desc{
+    text-align: justify;
+    color: #616161 !important;
+    font-weight: 300 !important;
+    letter-spacing: 0.6px;
+    margin-bottom: 20px;
+    font-weight: 500 !important;
+}
+
+.bg-img-about{
+    background-image: url('../media/homepage/frame1.webp');
+    background-size: cover;
+    min-height: 538px;
+  }

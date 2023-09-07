@@ -1,5 +1,5 @@
-<header class="worldHeader">
-    <div class="worldHeader-container position-relative">
+<header class="worldHeader w-100 position-fixed" style="z-index:1;">
+    <div class="worldHeader-container">
         <div class="logo">
             <a href=<?php echo $home_page ?>><img src=<?php echo $logo ?> alt="Mahavir Group Logo" width="150"></a>
         </div>
@@ -9,6 +9,7 @@
                     <li><a href=<?php echo $index ?>>Home</a></li>
                     <li><a href=<?php echo $about ?> class='ps-3'>About us</a></li>
                     <li><a href=<?php echo $projects ?> class='ps-3'>Projects</a></li>
+                    <li><a href=<?php echo $career ?> class='ps-3'>Careers</a></li>
                     <li><a href=<?php echo $client ?> class='ps-3'>Our Clients</a></li>
                 </ul>
             </nav>
@@ -25,8 +26,11 @@
                 <li class='mt-5'><a href=<?php echo $index ?> class='text-white'>Home</a></li>
                 <li class='mt-3'><a href=<?php echo $about ?> class='text-white'>About us</a></li>
                 <li class='mt-3'><a href=<?php echo $projects ?> class='text-white'>Projects</a></li>
+                <li class='mt-3'><a href=<?php echo $career ?> class='text-white'>Careers</a></li>
                 <li class='mt-3'><a href=<?php echo $client ?> class='text-white'>Our Clients</a></li>
             </ul>
         </div>
     </div>
 </header>
+
+<!-- <div class='d-sm-block d-md-none' style='width:100%; height:76px;'></div> -->

@@ -175,6 +175,11 @@ a{
     font-weight: 400;
     line-height: 24px;
 }
+.project-img{
+    height: 400px;
+    width: 462px;
+    border-radius: 6px;
+}
 
 @media (max-width: 770px){
     .frame1-title{
@@ -200,4 +205,18 @@ a{
         margin: 0.5rem auto;
         background-color: black;
     }
+    .project-img{
+        height: 351px;
+        width: 405px;
+        border-radius: 6px;
+    }
 }
+
+.overview-heading{
+    line-height: 48px;
+    font-size: 34px;
+    letter-spacing: 5px !important;
+    font-weight: 400 !important;
+    color: #173f50;
+}
+

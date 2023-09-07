@@ -1,10 +1,10 @@
-<footer class="worldFooter parallax">
+<footer class="worldFooter mt-5">
     <div class="worldFooterContainer">
         <div class="top">
             <div class="topText">
                 Your International Experience with <span class="brand-text">
-                    Mahavir Group
-                    <br>
+                Mahavir Group
+                <br>
                 </span> Properties
             </div>
             <hr>
@@ -29,7 +29,7 @@
 
             <div class="row">
                 <div class="col text-end">
-                    <span class='view-frame2 bg-black border border-light text-white' style='padding: 15px 26px 16px;'>Register</span><button class='rounded-0 btn' style='background: #28AFB0;padding: 9px 20px 13px;'><i class="fa-solid fa-arrow-right text-white"></i></button>
+                    <span class='view-frame2 bg-black border border-light text-white' style='padding-top: 15px; padding-bottom: 15.5px; padding-left: 10px;'>Register<button class='rounded-0 arrow-btn' style='background: #28AFB0;'><i class="fa-solid fa-arrow-right text-white"></i></button></span>
                 </div>
             </div>
 
@@ -43,16 +43,16 @@
 
             <div class="row">
                 <div class="col-md">
-                    <i class="fa-solid fa-phone" style='color:#c9c281;'></i><span class='ps-3 ph-font'>+91-9009566516 | 9009566516</span>
+                    <i class="fa-solid fa-phone" style='color:#c9c281;'></i><a href='tel:+919009566516' class='ps-3 ph-font'>+91-9009566516</a>
                 </div>
                 <div class="col-md text-start">
-                    <i class="fa-brands fa-whatsapp" style='color:#c9c281;'></i><span class='ps-3 ph-font'>+91-9009566516</span>
+                    <i class="fa-brands fa-whatsapp" style='color:#c9c281;'></i><a href ='https://api.whatsapp.com/send?phone=919009566516' class='ps-3 ph-font'>+91-9009566516</a>
                 </div>
-                <div class="col d-none d-md-block text-end">
-                    <span class='ph-font'>Follow Us on:</span><span style='color:#a5a5a5'><i class="fa-brands fa-linkedin ps-2"></i><i class="fa-brands fa-facebook ps-2"></i><i class="fa-brands fa-instagram ps-2"></i><i class="fa-brands fa-youtube ps-2"></i></span>
+                <div class="col d-none d-md-block text-end ">
+                    <span class='ph-font'>Follow Us on:</span><span  style='color:#a5a5a5'><a href="https://www.linkedin.com/company/31324258/admin/feed/posts/" target="_blank" class='linkedin'><i class="fa-brands fa-linkedin ps-2"></i></a><a href="https://www.facebook.com/mahavirgroupofficial" target="_blank" class='fb'><i class="fa-brands fa-facebook ps-2"></i></a><a href="https://www.instagram.com/mahavirgroupofficial/" target="_blank" class='insta'><i class="fa-brands fa-instagram ps-2"></i></a><a href="https://www.youtube.com/channel/UCw_7EsT79u75saOVIFquEtQ" target="_blank" class='yt'><i class="fa-brands fa-youtube ps-2"></i></a></span>
                 </div>
                 <div class="col d-sm-block d-md-none">
-                    <span class='ph-font'>Follow Us on:</span><span style='color:#a5a5a5'><i class="fa-brands fa-linkedin ps-2"></i><i class="fa-brands fa-facebook ps-2"></i><i class="fa-brands fa-instagram ps-2"></i><i class="fa-brands fa-youtube ps-2"></i></span>
+                    <span class='ph-font'>Follow Us on:</span><span  style='color:#a5a5a5'><a href="https://www.linkedin.com/company/31324258/admin/feed/posts/"><i class="fa-brands fa-linkedin ps-2"></i></a><a href="https://www.facebook.com/mahavirgroupofficial"><i class="fa-brands fa-facebook ps-2"></i></a><a href="https://www.instagram.com/mahavirgroupofficial/"><i class="fa-brands fa-instagram ps-2"></i></a><a href="https://www.youtube.com/channel/UCw_7EsT79u75saOVIFquEtQ"><i class="fa-brands fa-youtube ps-2"></i></a></span>
                 </div>
             </div>
             <hr class='text-light'>

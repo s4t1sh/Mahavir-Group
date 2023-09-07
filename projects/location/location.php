@@ -11,7 +11,7 @@
     </div>
     <div class="row mt-5">
         <div class="col">
-            <img src="../../assets/media/location/location.webp" alt="" class='img-fluid w-100'>
+            <iframe src=<?php echo $location_map ?> width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>
 </div>

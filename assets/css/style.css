@@ -39,15 +39,21 @@ details[open] summary:after {
   
 }
 
+.frame1-desc{
+  letter-spacing: 2px;
+  font-size: 16px;
+  line-height: 27px;
+}
+
 .zoom:hover {
   transform: scale(1.03);
   cursor: pointer;
 }
 
 input {
-  width: 100%;
   border: none !important;
   background: transparent;
+  width: 100%;
 }
 
 input:focus-visible{
@@ -93,7 +99,7 @@ hr {
 .bg-img1{
   background-image: url('../media/homepage/frame1.webp');
   background-size: cover;
-  min-height: 670px;
+  min-height: 738px;
 }
 
 .bg-project{
@@ -218,11 +224,77 @@ opacity: 0.25;
 }
 
 .bg-frame5{
-  background-image: url('../media/homepage/frame5.webp');
-  min-height: 80vh;
+  background-image: url('../media/smart_city/smart_city.webp');
+  min-height: 100vh;
+  background-size: cover;
+}
+.bg-frame7{
+  background-image: url('../media/l_and_m/mainbg.webp');
+  min-height: 100vh;
   background-size: cover;
 }
 
+.bg-frame8{
+  background-image: url('../media/kalpavrish/mainbg.webp');
+  min-height: 100vh;
+  background-size: cover;
+}
+
+.bg-frame9{
+  background-image: url('../media/galaxy/mainbg.webp');
+  min-height: 100vh;
+  background-size: cover;
+}
+
+.bg-frame10{
+  background-image: url('../media/j_and_k/mainbg.webp');
+  min-height: 100vh;
+  background-size: cover;
+}
+
+.bg-frame11{
+  background-image: url('../media/suncity/mainbg.webp');
+  min-height: 100vh;
+  background-size: cover;
+}
+
+.bg-frame12{
+  background-image: url('../media/gardencity/mainbg.webp');
+  min-height: 100vh;
+  background-size: cover;
+}
+
+.bg-frame13{
+  background-image: url('../media/gardencity/mainbg.webp');
+  min-height: 100vh;
+  background-size: cover;
+}
+.bg-frame14{
+  background-image: url('../media/mahavir_suncity/mainbg.webp');
+  min-height: 100vh;
+  background-size: cover;
+}
+.bg-frame15{
+  background-image: url('../media/vrindavan/mainbg.webp');
+  min-height: 100vh;
+  background-size: cover;
+}
+.bg-frame16{
+  background-image: url('../media/mahavir_heights/mainbg.webp');
+  min-height: 100vh;
+  background-size: cover;
+}
+.bg-frame17{
+  background-image: url('../media/r_and_s/mainbg.webp');
+  min-height: 100vh;
+  background-size: cover;
+}
+
+.bg-frame18{
+  background-image: url('../media/lake_view/mainbg.webp');
+  min-height: 100vh;
+  background-size: cover;
+}
 .title-frame2{
   color: #C9C281;
   font-family: EB Garamond;
@@ -366,20 +438,23 @@ opacity: 0.25;
 @media (max-width: 770px){
 .arrow-btn{
   background: #28AFB0;
-  padding: 12px 20px 13px;
+  /* padding: 12px 20px 13px; */
+  padding: 15px 20px 15px;
+  margin-left: 15px;
   }
   .bg-img1{
-    background-image: url('../media/homepage/frame1.webp');
+    background-image: url('../media/homepage/frame1.jpg');
     background-size: cover;
-    min-height: 586px;
+    min-height: 670px;
   }
   .frame1-desc{
+    letter-spacing: 2px;
     font-size: 12px;
   }
   .bg-project{
     background-image: url('../media/projects/project_frame1.webp');
     background-size: cover;
-    min-height: 68vh;
+    min-height: 75vh;
   }
   .bg-img-durg{
     background-size: cover;
@@ -390,7 +465,9 @@ opacity: 0.25;
 @media (min-width: 770px){
 .arrow-btn{
   background: #28AFB0;
-  padding: 15px 20px 10px;
+  /* padding: 15px 20px 12px; */
+  padding: 15px 20px 15px;
+  margin-left: 15px;
 }
 }
 
@@ -431,4 +508,72 @@ opacity: 0.25;
     transform: translateX(0px);
   }
   
+}
+
+.mt-5r{
+  margin-top: 5rem;
+}
+
+.mt-7r{
+  margin-top: 7rem;
+}
+
+.ps-8{
+  padding-left: 8rem;
+}
+
+.ps-7{
+  padding-left: 7rem;
+}
+
+.ps-10{
+  padding-left: 10rem;
+}
+
+.vertical-line{
+  height: 168px;
+  width: 0.2px;
+  background-color: #dfdfdf;
+}
+
+@media (max-width: 770px){
+  .ps-8{
+    padding-left: 1rem;
+  }
+  
+  .ps-7{
+    padding-left: 1rem;
+  }
+  
+  .ps-10{
+    padding-left: 1rem;
+  }
+
+  .ps-override-2{
+    padding-left: 36px;
+  }
+
+  .pt-3r{
+    padding-top: 3rem;
+  }
+}
+
+iframe{
+  width: 100%;
+}
+
+.linkedin:hover{
+  color: #0072b1;
+}
+
+.yt:hover{
+  color: #CD201F;
+}
+
+.fb:hover{
+  color: 	#1877F2;
+}
+
+.insta:hover{
+  color: #d62976;
 }

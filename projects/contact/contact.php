@@ -11,38 +11,42 @@
             <div class="col-1 d-none d-md-block"></div>
             <div class="col-md text-center rounded shadow-lg ps-5 pe-5">
                 <p class='contact-font mt-5'>Discuss Your Unique Requirements With Us</p>
+
+                <form method="post" action='../../send_email.php' enctype="multipart/form-data">
                 <div class="row text-start pt-3">
-                    <div class="col-md">
-                        <input type="text" name="" id="" placeholder='First Name*' required><hr>
+                    <div class="col">
+                        <input type="text" name="first_name" id="" placeholder='Full Name*' required><hr>
                     </div>
-                    <div class="col-md ps-3">
+                    <!-- <div class="col ps-3">
                         <input type="text" name="" id="" placeholder='Last Name' ><hr>
+                    </div> -->
+                </div>
+                <div class="row text-start">
+                    <div class="col">
+                        <input type="number" name="contact" id="" placeholder='Phone Number*' required><hr>
+                    </div>
+                    <div class="col ps-3">
+                        <input type="email" name="email" id="" placeholder='Email' required><hr>
                     </div>
                 </div>
                 <div class="row text-start">
-                    <div class="col-md">
-                        <input type="number" name="" id="" placeholder='Phone Number*' required><hr>
-                    </div>
-                    <div class="col-md ps-3">
-                        <input type="email" name="" id="" placeholder='Email' ><hr>
+                    <div class="col">
+                        <input type="text" name="subject" id="" placeholder="Subject *" class='d-none' value='New Message Received!'>
+                        <input type="text" name="message" id="" placeholder='Message' required><hr>
                     </div>
                 </div>
                 <div class="row text-start">
-                    <div class="col-md">
-                        <input type="text" name="" id="" placeholder='Message' required><hr>
-                    </div>
-                </div>
-                <div class="row text-start">
-                    <div class="col-md">
-                        <input type="checkbox" name="" id="terms" style='width: auto;'>
+                    <div class="col">
+                        <input type="checkbox" name="" id="terms" style='width: auto;' required>
                         <span for="terms" class='ps-2 terms-font'>I Have read all the terms & Condition of Mahavir group</span>
                     </div>
                 </div>
-                <div class="row text-end mb-3">
-                    <div class="col-md mt-3">
-                    <span class='view-frame2 bg-black text-white' style='padding: 15px 26px 16px;'>Submit</span><button class='rounded-0 btn' style='background: #C9C281;padding: 9px 20px 13px;'><i class="fa-solid fa-arrow-right text-white"></i></button>
+                <div class="row text-end">
+                    <div class="col mt-3 pb-3">
+                    <span class='view-frame2 bg-black text-white' style='padding-top: 15px; padding-bottom: 15.5px; padding-left: 10px;'>Submit<button type='submit' class='rounded-0 arrow-btn' style='background: #28AFB0;'><i class="fa-solid fa-arrow-right text-white"></i></button></span>
                     </div>
                 </div>
+                </form>
             </div>
         </div>
     </div>
